@@ -1,7 +1,0 @@
-lib/stimulus-rails.rb 088fff7414b80917b3ef70d87f381ac2e5efd6e6
-lib/stimulus/engine.rb d633f0175d3b0a487295316b243eac9f32338102
-lib/stimulus/version.rb 1c5c553c53fa16082e93476e6f82560598dcf0e1
-lib/stimulus/manifest.rb 31ade6f730d00f014f8ab14a2f90811d38cd8b18
-lib/install/stimulus_with_node.rb 58e41e44a8be62cbef6b2cd96b5adca1c776216e
-lib/install/stimulus_with_importmap.rb 878c063a2604e9a495efd131712bab90f89e9ac2
-lib/generators/stimulus/stimulus_generator.rb 4d8dc76d220220efd0839d1a7def337cdbde9c3a
