@@ -1,0 +1,62 @@
+current directory: /home/christiand/Dokumente/Ruby/rails-blog/vendor/bundle/ruby/3.0.0/gems/nio4r-2.5.8/ext/nio4r
+/usr/bin/ruby -I /usr/lib/ruby/3.0.0 -r ./siteconf20220801-243320-w8oi2m.rb extconf.rb
+checking for unistd.h... yes
+checking for linux/aio_abi.h... yes
+checking for linux/io_uring.h... yes
+checking for sys/select.h... yes
+checking for port_event_t in poll.h... no
+checking for sys/epoll.h... yes
+checking for sys/event.h... no
+checking for port_event_t in port.h... no
+checking for sys/resource.h... yes
+creating Makefile
+
+current directory: /home/christiand/Dokumente/Ruby/rails-blog/vendor/bundle/ruby/3.0.0/gems/nio4r-2.5.8/ext/nio4r
+make DESTDIR\= clean
+
+current directory: /home/christiand/Dokumente/Ruby/rails-blog/vendor/bundle/ruby/3.0.0/gems/nio4r-2.5.8/ext/nio4r
+make DESTDIR\=
+compiling bytebuffer.c
+compiling monitor.c
+compiling nio4r_ext.c
+In Datei, eingebunden von nio4r_ext.c:6:
+../libev/ev.c:2136:31: Warnung: »ev_default_loop_ptr« initialisiert und als »extern« deklariert
+ 2136 |   EV_API_DECL struct ev_loop *ev_default_loop_ptr = 0; /* needs to be initialised to make it a definition despite extern */
+      |                               ^~~~~~~~~~~~~~~~~~~
+../libev/ev.c: In Funktion »evpipe_write«:
+../libev/ev.c:2798:11: Warnung: Der Rückgabewert von »write«, der mit dem Attribut »warn_unused_result« deklariert wurde, wird ignoriert [-Wunused-result]
+ 2798 |           write (evpipe [1], &counter, sizeof (uint64_t));
+      |           ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../libev/ev.c:2810:11: Warnung: Der Rückgabewert von »write«, der mit dem Attribut »warn_unused_result« deklariert wurde, wird ignoriert [-Wunused-result]
+ 2810 |           write (evpipe [1], &(evpipe [1]), 1);
+      |           ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../libev/ev.c: In Funktion »pipecb«:
+../libev/ev.c:2831:11: Warnung: Der Rückgabewert von »read«, der mit dem Attribut »warn_unused_result« deklariert wurde, wird ignoriert [-Wunused-result]
+ 2831 |           read (evpipe [1], &counter, sizeof (uint64_t));
+      |           ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../libev/ev.c:2845:11: Warnung: Der Rückgabewert von »read«, der mit dem Attribut »warn_unused_result« deklariert wurde, wird ignoriert [-Wunused-result]
+ 2845 |           read (evpipe [0], &dummy, sizeof (dummy));
+      |           ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+compiling selector.c
+selector.c: In Funktion »NIO_Selector_synchronize«:
+selector.c:301:26: Warnung: Übergabe des Arguments 1 von »rb_ensure« von inkompatiblem Zeigertyp [-Wincompatible-pointer-types]
+  301 |         return rb_ensure(func, (VALUE)args, NIO_Selector_unlock, self);
+      |                          ^~~~
+      |                          |
+      |                          VALUE (*)(VALUE *) {alias long unsigned int (*)(long unsigned int *)}
+In Datei, eingebunden von /usr/include/ruby-3.0.0/ruby/ruby.h:38,
+                 von /usr/include/ruby-3.0.0/ruby.h:38,
+                 von nio4r.h:10,
+                 von selector.c:6:
+/usr/include/ruby-3.0.0/ruby/internal/iterator.h:53:17: Anmerkung: »VALUE (*)(VALUE)« {alias »long unsigned int (*)(long unsigned int)«} erwartet, aber Argument hat Typ »VALUE (*)(VALUE *)« {alias »long unsigned int (*)(long unsigned int *)«}
+   53 | VALUE rb_ensure(VALUE(*)(VALUE),VALUE,VALUE(*)(VALUE),VALUE);
+      |                 ^~~~~~~~~~~~~~~
+selector.c: In Funktion »NIO_Selector_wakeup«:
+selector.c:499:5: Warnung: Der Rückgabewert von »write«, der mit dem Attribut »warn_unused_result« deklariert wurde, wird ignoriert [-Wunused-result]
+  499 |     write(selector->wakeup_writer, "\0", 1);
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+linking shared-object nio4r_ext.so
+
+current directory: /home/christiand/Dokumente/Ruby/rails-blog/vendor/bundle/ruby/3.0.0/gems/nio4r-2.5.8/ext/nio4r
+make DESTDIR\= install
+/usr/bin/install -c -m 0755 nio4r_ext.so ./.gem.20220801-243320-onjwgc

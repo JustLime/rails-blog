@@ -1,0 +1,6 @@
+lib/public_suffix.rb 9fcc90e44d47a20a5e50d954d99ee8d72814912c
+lib/public_suffix/list.rb ef550912f38a3491c309b4250313e9571d9f3362
+lib/public_suffix/rule.rb eef4c2495fda418b6e4ebbcca9021d9da480ca5b
+lib/public_suffix/domain.rb 257fe4359753fde028ae803595a77baa2bbf90b5
+lib/public_suffix/errors.rb 14c8d3f1ea83a3d56e2fff5955003d66f350f1cb
+lib/public_suffix/version.rb 2d241159a761392e7ec7a6feb261c7538fba3c61

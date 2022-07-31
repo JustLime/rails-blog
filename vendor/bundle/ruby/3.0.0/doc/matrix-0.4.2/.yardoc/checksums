@@ -1,0 +1,4 @@
+lib/matrix.rb 4b06122b94086898a6fc9483c717149b3d24e2b9
+lib/matrix/version.rb f1db59c7a66009288f71d1f373d062141a66c56b
+lib/matrix/lup_decomposition.rb 6aae96fb139f263a4d704a4b30b06567a1ed0643
+lib/matrix/eigenvalue_decomposition.rb 1dc17cb3265b24ede3bfab70c6cdf19f7883d950
