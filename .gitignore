@@ -33,3 +33,6 @@
 
 # Ignore master key for decrypting credentials and more.
 /config/master.key
+
+#Ignore Gemfile changes for running Rails server under Windows.
+Gemfile
