@@ -1,0 +1,3 @@
+lib/io/console/size.rb 1def33a255ccc7d2d0a14cc27d857d2e4f1024d8
+ext/io/console/console.c f3e8206893f303ccb3314fdeed7c9abb82c7701a
+ext/io/console/extconf.rb 82c047694d28b2b0b82355b86df99d1de362386c
