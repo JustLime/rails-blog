@@ -1,4 +1,0 @@
-lib/rails-html-sanitizer.rb 99cc042ba550896478c767e9786276b9c3399a13
-lib/rails/html/sanitizer.rb 057f0fa1245c64ba8afef93c0780f63e62648cf3
-lib/rails/html/scrubbers.rb 7b3e99b628be5b2e6e91ebc0bc14c14656609151
-lib/rails/html/sanitizer/version.rb fec0b767c428bb5c2bc7c5b52f902a298a28ccd2

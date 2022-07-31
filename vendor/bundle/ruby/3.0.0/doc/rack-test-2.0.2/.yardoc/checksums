@@ -1,8 +1,0 @@
-lib/rack/test.rb a7f0ca425d224d4df2500278ebdcd37e718744be
-lib/rack/test/utils.rb e2bb7b561d182a96cd0bc56ff7a608b849de929c
-lib/rack/mock_session.rb 89fb1ab4d55c2cc547d774634fb0ebf8f77ed39a
-lib/rack/test/methods.rb 5d0af056cf202015d65203a586ad33c76b3bdfbf
-lib/rack/test/version.rb 893c38758c002bd2c5013ce84361f01a3e6f04b4
-lib/rack/test/cookie_jar.rb dac47279a1d5cc9a675165d26ed17480ff57a790
-lib/rack/test/uploaded_file.rb 44e704595a99ba737557e64aa72d2f33fcc84f03
-lib/rack/test/mock_digest_request.rb ea76bad40b85b11d10e3113891e9d3b12a3a7fbc
