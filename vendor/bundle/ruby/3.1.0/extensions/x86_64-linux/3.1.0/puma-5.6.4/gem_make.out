@@ -1,5 +1,5 @@
 current directory: /home/christiand/Dokumente/Ruby/rails-blog/vendor/bundle/ruby/3.1.0/gems/puma-5.6.4/ext/puma_http11
-/home/christiand/.rvm/rubies/ruby-3.1.2/bin/ruby -I /home/christiand/.rvm/rubies/ruby-3.1.2/lib/ruby/3.1.0 -r ./siteconf20220801-304004-a0kwx1.rb extconf.rb
+/home/christiand/.rvm/rubies/ruby-3.1.2/bin/ruby -I /home/christiand/.rvm/rubies/ruby-3.1.2/lib/ruby/3.1.0 -r ./siteconf20220801-375441-yvkcax.rb extconf.rb
 using OpenSSL pkgconfig (openssl.pc)
 checking for openssl/bio.h... yes
 checking for DTLS_method() in openssl/ssl.h... yes
@@ -23,4 +23,4 @@ linking shared-object puma/puma_http11.so
 
 current directory: /home/christiand/Dokumente/Ruby/rails-blog/vendor/bundle/ruby/3.1.0/gems/puma-5.6.4/ext/puma_http11
 make DESTDIR\= install
-/usr/bin/install -c -m 0755 puma_http11.so ./.gem.20220801-304004-jk4hor/puma
+/usr/bin/install -c -m 0755 puma_http11.so ./.gem.20220801-375441-o4mh4u/puma

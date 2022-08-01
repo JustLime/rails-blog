@@ -1,5 +1,5 @@
 current directory: /home/christiand/Dokumente/Ruby/rails-blog/vendor/bundle/ruby/3.1.0/gems/bootsnap-1.13.0/ext/bootsnap
-/home/christiand/.rvm/rubies/ruby-3.1.2/bin/ruby -I /home/christiand/.rvm/rubies/ruby-3.1.2/lib/ruby/3.1.0 -r ./siteconf20220801-304004-9llmw2.rb extconf.rb
+/home/christiand/.rvm/rubies/ruby-3.1.2/bin/ruby -I /home/christiand/.rvm/rubies/ruby-3.1.2/lib/ruby/3.1.0 -r ./siteconf20220801-375441-has2py.rb extconf.rb
 creating Makefile
 
 current directory: /home/christiand/Dokumente/Ruby/rails-blog/vendor/bundle/ruby/3.1.0/gems/bootsnap-1.13.0/ext/bootsnap
@@ -12,4 +12,4 @@ linking shared-object bootsnap/bootsnap.so
 
 current directory: /home/christiand/Dokumente/Ruby/rails-blog/vendor/bundle/ruby/3.1.0/gems/bootsnap-1.13.0/ext/bootsnap
 make DESTDIR\= install
-/usr/bin/install -c -m 0755 bootsnap.so ./.gem.20220801-304004-gds85o/bootsnap
+/usr/bin/install -c -m 0755 bootsnap.so ./.gem.20220801-375441-haahn3/bootsnap
