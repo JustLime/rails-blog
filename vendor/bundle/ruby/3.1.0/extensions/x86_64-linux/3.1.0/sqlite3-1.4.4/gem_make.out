@@ -1,5 +1,5 @@
 current directory: /home/christiand/Dokumente/Ruby/rails-blog/vendor/bundle/ruby/3.1.0/gems/sqlite3-1.4.4/ext/sqlite3
-/home/christiand/.rvm/rubies/ruby-3.1.2/bin/ruby -I /home/christiand/.rvm/rubies/ruby-3.1.2/lib/ruby/3.1.0 -r ./siteconf20220801-304004-19ga7j.rb extconf.rb
+/home/christiand/.rvm/rubies/ruby-3.1.2/bin/ruby -I /home/christiand/.rvm/rubies/ruby-3.1.2/lib/ruby/3.1.0 -r ./siteconf20220801-375441-oxqky6.rb extconf.rb
 checking for sqlite3.h... yes
 checking for pthread_create() in -lpthread... yes
 checking for -ldl... yes
@@ -81,4 +81,4 @@ linking shared-object sqlite3/sqlite3_native.so
 
 current directory: /home/christiand/Dokumente/Ruby/rails-blog/vendor/bundle/ruby/3.1.0/gems/sqlite3-1.4.4/ext/sqlite3
 make DESTDIR\= install
-/usr/bin/install -c -m 0755 sqlite3_native.so ./.gem.20220801-304004-xluq7z/sqlite3
+/usr/bin/install -c -m 0755 sqlite3_native.so ./.gem.20220801-375441-5ai8gh/sqlite3

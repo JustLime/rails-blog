@@ -1,0 +1,13 @@
+current directory: /home/christiand/Dokumente/Ruby/rails-blog/vendor/bundle/ruby/3.1.0/gems/json-2.6.2/ext/json
+/home/christiand/.rvm/rubies/ruby-3.1.2/bin/ruby -I /home/christiand/.rvm/rubies/ruby-3.1.2/lib/ruby/3.1.0 -r ./siteconf20220801-404398-epkphr.rb extconf.rb
+creating Makefile
+
+current directory: /home/christiand/Dokumente/Ruby/rails-blog/vendor/bundle/ruby/3.1.0/gems/json-2.6.2/ext/json
+make DESTDIR\= clean
+
+current directory: /home/christiand/Dokumente/Ruby/rails-blog/vendor/bundle/ruby/3.1.0/gems/json-2.6.2/ext/json
+make DESTDIR\=
+make: Für das Ziel „all“ ist nichts zu tun.
+
+current directory: /home/christiand/Dokumente/Ruby/rails-blog/vendor/bundle/ruby/3.1.0/gems/json-2.6.2/ext/json
+make DESTDIR\= install
