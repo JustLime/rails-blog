@@ -39,7 +39,7 @@ class ArticlesController < ApplicationController
     def destroy
         @article.destroy
         flash[:notice] = "Article was deleted"
-        redirect_to article_path(@article), status: :see_other
+        redirect_to articles_path, status: :see_other
     end
 
     private
