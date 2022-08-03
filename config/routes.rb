@@ -1,8 +1,9 @@
 Rails.application.routes.draw do
+  # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
   get 'pages/index'
   get 'about', to: 'pages#about'
-  # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
-  root 'pages#index'
   # Defines the root path route ("/")
-  # root "articles#index"
+  root 'pages#index'
+  # Resources
+  resources :articles
 end
